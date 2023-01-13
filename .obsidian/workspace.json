@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "db294f32af106004",
+        "id": "8fb1cb545175dd9e",
         "type": "tabs",
         "children": [
           {
-            "id": "beb8c89b6db4e78d",
+            "id": "6b2dc7f5202d2173",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "Video/0 1 Why Dart.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b74b33b72f9be09b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Video/0 1 Why Dart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Video/0 1 Why Dart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Video/0 1 Why Dart.md"
               }
             }
           },
@@ -158,14 +157,14 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "beb8c89b6db4e78d",
+  "active": "6b2dc7f5202d2173",
   "lastOpenFiles": [
+    "Assets/Pasted image 20230113172933.png",
+    "Video/0 1 Why Dart.md",
+    "Video/0 2 How To Learn.md",
+    "Video/0 0 Welcome.md",
     "Video/1 0 Hello World.md",
     "README.md",
-    "Video/0 0 Welcome.md",
-    "Video/0 2 How To Learn.md",
-    "Video/0 1 Why Dart.md",
-    "Assets/Pasted image 20230113172933.png",
     "Note/202301131617.md",
     "Templates/TP-ZT메모.md",
     "Templates/TP-Youtube.md"
