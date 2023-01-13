@@ -2,6 +2,6 @@
 
 ## 1주차
 1. Introduction
-	- [ ] Welcome (02:36)
-	- [ ] Why Dart (09:29)
+	- [x] Welcome (02:36)
+	- [x] Why Dart (09:29)
 	- [ ] How To Learn
