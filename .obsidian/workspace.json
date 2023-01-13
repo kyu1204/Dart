@@ -128,13 +128,21 @@
                 "file": "Note/202301131617.md"
               }
             }
+          },
+          {
+            "id": "00372deb284f25ef",
+            "type": "leaf",
+            "state": {
+              "type": "video-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,7 +156,7 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "337aef448d44ee0c",
+  "active": "00372deb284f25ef",
   "lastOpenFiles": [
     "README.md",
     "Templates/TP-ZT메모.md",
