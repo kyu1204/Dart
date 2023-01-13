@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video/0 2 How To Learn.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b74b33b72f9be09b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Video/0 2 How To Learn.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Video/0 2 How To Learn.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Video/0 2 How To Learn.md"
+                "file": "README.md"
               }
             }
           },
@@ -162,11 +161,11 @@
   "lastOpenFiles": [
     "Video/0 2 How To Learn.md",
     "Video/0 1 Why Dart.md",
+    "Video/0 0 Welcome.md",
+    "README.md",
     "Assets/Pasted image 20230113172933.png",
     "Note/202301131617.md",
-    "README.md",
     "Templates/TP-ZT메모.md",
-    "Video/0 0 Welcome.md",
     "Templates/TP-Youtube.md"
   ]
 }
