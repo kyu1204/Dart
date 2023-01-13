@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b207fa1d9c1c4905",
+        "id": "db294f32af106004",
         "type": "tabs",
         "children": [
           {
-            "id": "85868081c1140112",
+            "id": "beb8c89b6db4e78d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Video/0 2 How To Learn.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -158,8 +158,9 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "85868081c1140112",
+  "active": "beb8c89b6db4e78d",
   "lastOpenFiles": [
+    "Video/0 2 How To Learn.md",
     "Video/0 1 Why Dart.md",
     "Assets/Pasted image 20230113172933.png",
     "Note/202301131617.md",

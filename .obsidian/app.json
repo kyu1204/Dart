@@ -1,4 +1,5 @@
 {
   "showInlineTitle": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "livePreview": true
 }

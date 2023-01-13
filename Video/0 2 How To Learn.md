@@ -9,9 +9,7 @@ genre: Education
 ---
 # 0 2 How To Learn 
 
-```timestamp-url 
- <iframe title="0 2 How To Learn" src="https://www.youtube.com/embed/4vS3JLjw69M" height="720" width="1280" allowfullscreen allow="fullscreen" style="aspect-ratio: 1280 / 720; width: 100%; height: 100%;"></iframe>
- ```
+<iframe title="0 2 How To Learn" src="https://www.youtube.com/embed/4vS3JLjw69M" height="720" width="1280" allowfullscreen allow="fullscreen" style="aspect-ratio: 1280 / 720; width: 100%; height: 100%;"></iframe>
 
 
 ## Timestamp
