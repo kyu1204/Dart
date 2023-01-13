@@ -16,5 +16,14 @@
       ],
       "key": "O"
     }
+  ],
+  "obsidian-timestamp-notes:pause-player": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
   ]
 }

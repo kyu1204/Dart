@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video/0 1 Why Dart.md",
+                "file": "Video/0 2 How To Learn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b74b33b72f9be09b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Video/0 1 Why Dart.md",
+                "file": "Video/0 2 How To Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Video/0 1 Why Dart.md",
+                "file": "Video/0 2 How To Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Video/0 1 Why Dart.md"
+                "file": "Video/0 2 How To Learn.md"
               }
             }
           },
           {
-            "id": "dbb2badd97ab0683",
+            "id": "de10882ab041523f",
             "type": "leaf",
             "state": {
               "type": "video-view",
@@ -159,8 +160,8 @@
   },
   "active": "85868081c1140112",
   "lastOpenFiles": [
-    "Assets/Pasted image 20230113172933.png",
     "Video/0 1 Why Dart.md",
+    "Assets/Pasted image 20230113172933.png",
     "Note/202301131617.md",
     "README.md",
     "Templates/TP-ZT메모.md",
