@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/202301131617.md",
+                "file": "Video/0 1 Why Dart.md",
                 "mode": "preview",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "1377f3e9a8d3aec4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/202301131617.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/202301131617.md",
+                "file": "Video/0 1 Why Dart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/202301131617.md",
+                "file": "Video/0 1 Why Dart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/202301131617.md"
+                "file": "Video/0 1 Why Dart.md"
               }
             }
           },
           {
-            "id": "79dd1964c6c118b7",
+            "id": "dbb2badd97ab0683",
             "type": "leaf",
             "state": {
               "type": "video-view",
@@ -161,10 +173,10 @@
   "active": "85868081c1140112",
   "lastOpenFiles": [
     "Note/202301131617.md",
+    "Video/0 1 Why Dart.md",
     "README.md",
     "Templates/TP-ZT메모.md",
     "Video/0 0 Welcome.md",
-    "Video/0 1 Why Dart.md",
     "Templates/TP-Youtube.md"
   ]
 }
