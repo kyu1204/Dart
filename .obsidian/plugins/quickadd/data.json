@@ -1,6 +1,62 @@
 {
-  "choices": [],
-  "macros": [],
+  "choices": [
+    {
+      "id": "882270dc-a291-4044-8c74-87abb2ae3a64",
+      "name": "youtube",
+      "type": "Macro",
+      "command": false,
+      "macroId": "a8cf88d6-8fc3-489d-9544-f3fa9d4a5657"
+    }
+  ],
+  "macros": [
+    {
+      "name": "youtube",
+      "id": "a8cf88d6-8fc3-489d-9544-f3fa9d4a5657",
+      "commands": [
+        {
+          "name": "youtube_cliped",
+          "type": "UserScript",
+          "id": "ab8ab2a5-53cc-4448-bee5-5fa701a201f3",
+          "path": "Templates/youtube_cliped.js",
+          "settings": {}
+        },
+        {
+          "name": "Youtube Template",
+          "type": "NestedChoice",
+          "id": "161c23cf-dea7-40c1-a8f4-e4d2a6e40cb7",
+          "choice": {
+            "id": "548814f3-a319-43c3-a471-363d032454a4",
+            "name": "Youtube Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/TP-Youtube.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Video"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false
 }
