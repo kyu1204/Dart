@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b74b33b72f9be09b",
@@ -130,7 +131,7 @@
             }
           },
           {
-            "id": "de10882ab041523f",
+            "id": "eedf61a358ba6a8b",
             "type": "leaf",
             "state": {
               "type": "video-view",
@@ -159,10 +160,11 @@
   },
   "active": "beb8c89b6db4e78d",
   "lastOpenFiles": [
+    "Video/1 0 Hello World.md",
+    "README.md",
+    "Video/0 0 Welcome.md",
     "Video/0 2 How To Learn.md",
     "Video/0 1 Why Dart.md",
-    "Video/0 0 Welcome.md",
-    "README.md",
     "Assets/Pasted image 20230113172933.png",
     "Note/202301131617.md",
     "Templates/TP-ZT메모.md",
