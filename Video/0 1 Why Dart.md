@@ -15,13 +15,13 @@ genre: Education
 ```timestamp 
  00:13
  ```
-optimized UI, Productive development, fast on all plaforms
+optimized UI, Productive development, fast on all platforms
 ```timestamp 
  00:23
  ```
 dart web, dart native
 dart web -> to JS
-dart native -> mutiple diffault architecthure (iOS, AOS, Window, Linux, OSX)
+dart native -> multiple different architecture (iOS, AOS, Window, Linux, OSX)
 ```timestamp 
  01:40
  ```
