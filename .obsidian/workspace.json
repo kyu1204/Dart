@@ -11,8 +11,12 @@
             "id": "6b2dc7f5202d2173",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b74b33b72f9be09b",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -149,10 +158,10 @@
       "zk-prefixer:새로운 유니크 노트 생성": false
     }
   },
-  "active": "7bb76375c70563e2",
+  "active": "6b2dc7f5202d2173",
   "lastOpenFiles": [
-    "README.md",
     "p.md",
+    "README.md",
     "Video/0 0 Welcome.md",
     "Video/0 2 How To Learn.md",
     "Video/0 1 Why Dart.md",
