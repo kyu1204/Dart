@@ -25,7 +25,7 @@
 3. or use `dartpad.dev`
 ---
 ## 1. Variables
-### Hello World
+### [Hello World](Code/0-Introduction/main.dart)
 1. always have a **`main`** function
 2. **`main`** function is the entry point
 3. we really need semicolon **`;`** 
