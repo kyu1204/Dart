@@ -26,4 +26,9 @@
 ---
 ## 1. Variables
 ### Hello World
-1
+1. always have a `main` function
+2. `main` function is the entry point
+3. we really need semicolon `;` 
+	1. auto formatter does not automatically add a semicolon
+	2. because 
+4. 
