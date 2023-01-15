@@ -30,7 +30,7 @@
 3. we really need semicolon **`;`** 
 	1. auto formatter does not automatically add a semicolon
 	2. because **`cascade operator`**
-### The Var Keyword
+### [The Var Keyword](Code/1-Variables/var.dart)
 1. dart variables is two type
 	1. use **var** keyword
 	2. use **specific type** (e.g. String, int ...)
