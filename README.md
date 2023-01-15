@@ -21,14 +21,13 @@
 	1. didn't have an AOT but now have AOT, because dart team built it for flutter team
 ### Installation
 1. `brew install dart-sdk`
-2. install `flutter extension` to vscode
+2. install `flutter extension` to `vscode`
 3. or use `dartpad.dev`
 ---
 ## 1. Variables
 ### Hello World
-1. always have a `main` function
-2. `main` function is the entry point
-3. we really need semicolon `;` 
+1. always have a **`main`** function
+2. **`main`** function is the entry point
+3. we really need semicolon **`;`** 
 	1. auto formatter does not automatically add a semicolon
-	2. because 
-4. 
+	2. because **`cascade operator`**
