@@ -70,3 +70,4 @@
    }
    ```
 ### Nullable Variables
+1. null safety is mean not ref
