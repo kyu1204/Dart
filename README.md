@@ -39,6 +39,8 @@
 	   var name = 'mint'; 
 	   name = 'minkyu'; (O) 
 	   name = 1; (X)
+	   
+	   String birhtday = '1993-12-04';
 	   ```
 	4. **var** keyword is used by a function or method local variable
 	5. **specific type** is used by a class or property
