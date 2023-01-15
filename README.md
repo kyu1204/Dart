@@ -44,7 +44,7 @@
 	   ```
 	4. **var** keyword is used by a function or method local variable
 	5. **specific type** is used by a class or property
-### Dynamic Type
+### [Dynamic Type](Code/1-Variables/dynamic.dart)
 1. **dynamic** type is not recommended but may be useful in some cases
 	1. API Response data or Json..
 2. use a dynamic,
@@ -57,4 +57,15 @@
 	   
 	   dynamic birthday;
 ```
-3. 
+3. If the dynamic type is bound to a specific type, you can use that type function
+   ``` dart
+   var name;
+   if (name is String) {
+	   name.isEmpty;
+	   name.length;
+   }
+   if (name is int) {
+	   name.isInfinity;
+	   name.isOdd;
+   }
+```
