@@ -19,3 +19,9 @@
 4. Null safety
 5. Both Fluter and Dart were made by Google
 	1. didn't have an AOT but now have AOT, because dart team built it for flutter team
+### Installation
+1. `brew install dart-sdk`
+2. install `flutter extension` to vscode
+3. or use `dartpad.dev`
+---
+## 1. Variables
