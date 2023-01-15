@@ -35,9 +35,10 @@
 	1. use **var** keyword
 	2. use **specific type** (e.g. String, int ...)
 	3. variables data can be updated
-	     ```dart 
+	   ```dart 
 	   var name = 'mint'; 
 	   name = 'minkyu'; (O) 
 	   name = 1; (X)
 	   ```
-
+	4. **var** keyword is used by a function or method local variable
+	5. **specific type** is used by a class or property
