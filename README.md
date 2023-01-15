@@ -1,5 +1,4 @@
 # Dart Study
----
 ## 0. Introduction
 ### Why Dart?
 1. Optimized for UI
@@ -31,3 +30,13 @@
 3. we really need semicolon **`;`** 
 	1. auto formatter does not automatically add a semicolon
 	2. because **`cascade operator`**
+### The Var Keyword
+1. dart variables is two type
+	1. use **var** keyword
+	2. use **specific type** (e.g. String, int ...)
+	3. variables is can be update data
+```dart
+var name = 'minkyu';
+name = 'mint'; (O)
+name = 1; (X)
+```
