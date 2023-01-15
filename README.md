@@ -86,3 +86,10 @@
    }
    name?.length;
    ```
+### [Final Variables](Code/1-Variables/final.dart)
+1. If you want to use a variable only once,
+	1. use **final** keyword
+	   ```dart
+		   final name = 'minkyu';
+		   name = 'mint';  // (X)
+		  ```
