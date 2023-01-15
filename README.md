@@ -44,3 +44,17 @@
 	   ```
 	4. **var** keyword is used by a function or method local variable
 	5. **specific type** is used by a class or property
+### Dynamic Type
+1. **dynamic** type is not recommended but may be useful in some cases
+	1. API Response data or Json..
+2. use a dynamic,
+	1. use var keyword and not allocate data
+	2. use specific keyword
+	   ```dart
+	   var name;  //dynamic
+	   name = 'minkyu';  // (o)
+	   name = 123;  // (o)
+	   
+	   dynamic birthday;
+```
+3. 
