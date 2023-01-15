@@ -71,7 +71,8 @@
    ```
 ### [Nullable Variables (a.k.a Optional)](Code/1-Variables/nullable.dart)
 1. **null safety** means **null value** cannot be referenced
-2. use a nullable variables,
+2. variable defaults are of a type that non-nullable
+3. use a nullable variables,
 	1. add a question symbol
 	   ```dart
 		   String? name = 'minkyu';
