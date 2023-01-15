@@ -51,12 +51,12 @@
 	1. use var keyword and not allocate data
 	2. use specific keyword
 	   ```dart
-	   var name;  //dynamic
-	   name = 'minkyu';  // (o)
-	   name = 123;  // (o)
-	   
-	   dynamic birthday;
-```
+		   var name;  //dynamic
+		   name = 'minkyu';  // (o)
+		   name = 123;  // (o)
+		   
+		   dynamic birthday;
+		   ```
 3. If the dynamic type is bound to a specific type, you can use that type function
    ``` dart
    var name;
@@ -68,4 +68,5 @@
 	   name.isInfinity;
 	   name.isOdd;
    }
-```
+   ```
+### Nullable Variables
