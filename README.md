@@ -34,17 +34,10 @@
 1. dart variables is two type
 	1. use **var** keyword
 	2. use **specific type** (e.g. String, int ...)
-	   <details>
-<summary> e.g. </summary>
-<div markdown="1">
-	
-	```dart
-	var name = 'mint';
-	name = 'minkyu'; (O)
-	name = 1; (X)
-	```
-	
-</div>
-</details>
+	   ```dart 
+	   var name = 'mint'; 
+	   name = 'minkyu'; (O) 
+	   name = 1; (X)
+	   ```
 	3. variables data can be updated
 
