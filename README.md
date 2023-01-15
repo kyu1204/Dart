@@ -69,5 +69,20 @@
 	   name.isOdd;
    }
    ```
-### Nullable Variables
-1. null safety is mean not ref
+### [Nullable Variables (a.k.a Optional)](Code/1-Variables/nullable.dart)
+1. **null safety** means **null value** cannot be referenced
+2. use a nullable variables,
+	1. add a question symbol
+	   ```dart
+		   String? name = 'minkyu';
+		   name = null;
+		   ```
+3. If you use that type function, check the null type (a.k.a Optional Binding)
+   ```dart
+   String? name = 'minkyu';
+   name = null;
+   if (name != null) {
+	   name.length;
+   }
+   name?.length;
+   ```
