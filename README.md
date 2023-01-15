@@ -93,3 +93,5 @@
 		   final name = 'minkyu';
 		   name = 'mint';  // (X)
 		  ```
+### Late Variables
+1. If you want to **lazy initialize**, use a **late** keyword
