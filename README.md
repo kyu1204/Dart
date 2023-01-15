@@ -103,5 +103,11 @@
    name = 'minkyu';
    print(name);  // (O)
    ```
-### Const Variables
-1. **const** variables means compile-time constant data
+### [Const Variables](Code/1-Variables/const.dart)
+1. **const** variables means constant data for compile-time
+2. If you want a constant variable but that variable initializes the run time, you must use the 'final' variable
+   ```dart
+   // const name = fetchAPI();  // (X)
+   // -> final name = fetchAPI();  (O)
+   const name = 'minkyu';
+   ```
