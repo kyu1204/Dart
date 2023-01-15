@@ -93,5 +93,14 @@
 		   final name = 'minkyu';
 		   name = 'mint';  // (X)
 		  ```
-### Late Variables
+### [Late Variables](Code/1-Variables/late.dart)
 1. If you want to **lazy initialize**, use a **late** keyword
+2. late variable protects the uninitialized variable reference
+   ```dart
+   late final name;
+   // print(name);  // (X)
+   
+   name = 'minkyu';
+   print(name);  // (O)
+   ```
+### Const Variables
