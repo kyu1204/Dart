@@ -35,7 +35,7 @@
 	1. use **var** keyword
 	2. use **specific type** (e.g. String, int ...)
 	   <details>
-<summary> hello </summary>
+<summary> e.g. </summary>
 <div markdown="1">
 	
 	```dart
