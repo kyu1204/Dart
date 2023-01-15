@@ -104,3 +104,4 @@
    print(name);  // (O)
    ```
 ### Const Variables
+1. **const** variables means compile-time constant data
