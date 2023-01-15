@@ -18,4 +18,4 @@
 				2. fast running app
 4. Null safety
 5. Both Fluter and Dart were made by Google
-	1. didn't have an AOT but now have AOT because built it flutter
+	1. didn't have an AOT but now have AOT, because dart team built it for flutter team
