@@ -114,13 +114,13 @@
    ```
 ---
 ## Data Types
-### Basic Data Types
+### [Basic Data Types](Code/2-DataTypes/basic.dart)
 1. basic data types is `String`, `bool`, `int`, `double` 
 2. all these types and actually almost everything comes from an **`object`**, even functions are objects.
    ```dart
    String name = "minkyu";  // String name = 'minkyu'; (O)
    bool alive = true;
-   int age = 30;
+   int age = 31;
    double money = 99.99;
    ```
 3. int and double type comes from an **`num`** class
@@ -129,4 +129,4 @@
    num x = 12;
    x = 1.1;
    ```
-### List
+### [List](Code/2-DataTypes/list.dart)
