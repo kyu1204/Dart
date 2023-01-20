@@ -50,23 +50,23 @@
 2. use a dynamic,
 	1. use var keyword and not allocate data
 	2. use specific keyword
-	   ```dart
-		   var name;  //dynamic
-		   name = 'minkyu';  // (o)
-		   name = 123;  // (o)
-		   
-		   dynamic birthday;
-		   ```
+	    ```dart
+	    var name;  //dynamic
+	    name = 'minkyu';  // (o)
+  	    name = 123;  // (o)
+	  
+	    dynamic birthday;
+	    ```
 3. If the dynamic type is bound to a specific type, you can use that type function
    ``` dart
    var name;
    if (name is String) {
-	   name.isEmpty;
-	   name.length;
+       name.isEmpty;
+       name.length;
    }
    if (name is int) {
-	   name.isInfinity;
-	   name.isOdd;
+       name.isInfinity;
+       name.isOdd;
    }
    ```
 ### [Nullable Variables (a.k.a Optional)](Code/1-Variables/nullable.dart)
@@ -75,35 +75,35 @@
 3. use a nullable variables,
 	1. add a question symbol
 	   ```dart
-		   String? name = 'minkyu';
-		   name = null;
-		   ```
+	   String? name = 'minkyu';
+	   name = null;
+	   ```
 3. If you use that type function, check the null type (a.k.a Optional Binding)
-   ```dart
-   String? name = 'minkyu';
-   name = null;
-   if (name != null) {
-	   name.length;
-   }
-   name?.length;
-   ```
+    ```dart
+    String? name = 'minkyu';
+    name = null;
+    if (name != null) {
+	    name.length;
+    }
+    name?.length;
+    ```
 ### [Final Variables](Code/1-Variables/final.dart)
 1. If you want to use a variable only once,
 	1. use **final** keyword
-	   ```dart
-		   final name = 'minkyu';
-		   name = 'mint';  // (X)
-		  ```
+	    ```dart
+	    final name = 'minkyu';
+	    name = 'mint';  // (X)
+	    ```
 ### [Late Variables](Code/1-Variables/late.dart)
 1. If you want to **lazy initialize**, use a **late** keyword
 2. late variable protects the uninitialized variable reference
-   ```dart
-   late final name;
-   // print(name);  // (X)
+    ```dart
+    late final name;
+    // print(name);  // (X)
    
-   name = 'minkyu';
-   print(name);  // (O)
-   ```
+    name = 'minkyu';
+    print(name);  // (O)
+    ```
 ### [Const Variables](Code/1-Variables/const.dart)
 1. **const** variables means constant data for compile-time
 2. If you want a constant variable but that variable initializes the run time, you must use the 'final' variable
