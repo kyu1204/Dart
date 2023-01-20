@@ -112,3 +112,8 @@
    // -> final name = fetchAPI();  (O)
    const name = 'minkyu';
    ```
+---
+## Data Types
+### Basic Data Types
+1. basic data types is `String`, `bool`, `int`, `double` 
+2. all these types and actually almost everything comes from an **`object`** even functions are objects too
