@@ -122,10 +122,10 @@
    bool alive = true;
    int age = 30;
    double money = 99.99;
-```
+   ```
 3. int and double type comes from an **`num`** class
 4. If you use a **`num`** type, it can be either a `integer` or a `double`
    ```dart
    num x = 12;
    x = 1.1;
-```
+   ```
