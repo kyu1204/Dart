@@ -134,9 +134,9 @@
 	1. use `var` keyword
 	2. use specific type `List<type>`
 	   ```dart
-	       var numbers = [1, 2, 3, 4];
-	       List<int> numbers2 = [1, 2, 3, 4];
-	       ```
+	   var numbers = [1, 2, 3, 4];
+	   List<int> numbers2 = [1, 2, 3, 4];
+	   ```
 2. `List` is implements many options
    ```dart
    var numbers = [1, 2, 3, 4];
@@ -147,24 +147,24 @@
 3. Dart is support **`collection if`** and **`collection for`**
 	1. collection if
 	   ```dart
-		   var giveFive = true;
-		   var numbers = [
-		     1,
-		     2,
-		     3,
-		     4,
-		     if (giveFive) 5,
-		   ]
-		   ```
+	   var giveFive = true;
+	   var numbers = [
+	       1,
+	       2,
+	       3,
+	       4,
+	       if (giveFive) 5,
+	   ]
+	   ```
 	2. collection for
 	   ```dart
-		   var oldFriends = ["철수", "영희"];
-		   var newFriends = [
-		     "민식", 
-		     "잼민",
-		     for (friend in oldFriends) "🌱 $friend",
-		    ];
-		   ```
+	   var oldFriends = ["철수", "영희"];
+	   var newFriends = [
+	       "민식", 
+	       "잼민",
+	       for (friend in oldFriends) "🌱 $friend",  // String Interpolation
+	   ];
+	   ```
 ### [String Interpolation](Code/2-DataTypes/stringInterpolation.dart)
 1. String Interpolation is how we can include **variables** in our **text**
 2. just use **`$`** and **variables name**
