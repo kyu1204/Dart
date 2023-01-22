@@ -157,7 +157,7 @@
    ```
 ### [String Interpolation](Code/2-DataTypes/stringInterpolation.dart)
 1. String Interpolation is how we can include **variables** in our **text**
-2. just use **`$`** .
+2. just use **`$`** and variables name
    ```dart
    var name = "minkyu";
    var age = 30;
