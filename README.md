@@ -180,3 +180,18 @@
    var greeting = "Hello everyone, my name is $name and I'm ${age - 1}";
    ```
 ### [Maps](Code/2-DataTypes/maps.dart)
+1. If you use a `Maps` , there are two way
+	1. use `var` keyword
+	2. use specific type `Maps<key type, value type>`
+	   ```dart
+	       var players = {
+	           "name": "minkyu",
+	           "xp": 19.999,
+	           "superpower": false,
+	       }
+	       Map<String, Object> players = {
+	           "name": "minkyu",
+	           "xp": 19.999,
+	           "superpower": false,
+	       }
+	       ```
