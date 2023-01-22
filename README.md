@@ -145,16 +145,26 @@
    numbers.isEmpty;
    ```
 3. Dart is support **`collection if`** and **`collection for`**
-   ```dart
-   var giveFive = true;
-   var numbers = [
-     1,
-     2,
-     3,
-     4,
-     if (giveFive) 5,
-   ]
-   ```
+	1. collection if
+	   ```dart
+		   var giveFive = true;
+		   var numbers = [
+		     1,
+		     2,
+		     3,
+		     4,
+		     if (giveFive) 5,
+		   ]
+		   ```
+	2. collection for
+	   ```dart
+		   var oldFriends = ["철수", "영희"];
+		   var newFriends = [
+		     "민식", 
+		     "잼민",
+		     for (friend in oldFriends) "🌱 $friend",
+		    ];
+		   ```
 ### [String Interpolation](Code/2-DataTypes/stringInterpolation.dart)
 1. String Interpolation is how we can include **variables** in our **text**
 2. just use **`$`** and **variables name**
