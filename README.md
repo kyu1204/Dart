@@ -137,7 +137,7 @@
 	   var numbers = [1, 2, 3, 4];
 	   List<int> numbers2 = [1, 2, 3, 4];
 	   ```
-2. `List` is implements many options
+2. `List` is implements many property and method
    ```dart
    var numbers = [1, 2, 3, 4];
    numbers.first;
@@ -188,10 +188,22 @@
 	           "name": "minkyu",
 	           "xp": 19.999,
 	           "superpower": false,
-	       }
+	       };
 	       Map<String, Object> players = {
 	           "name": "minkyu",
 	           "xp": 19.999,
 	           "superpower": false,
-	       }
+	       };
 	       ```
+2. `Maps` is implement many property and method
+   ```dart
+   var players = {
+	    "name": "minkyu",
+	    "xp": 19.999,
+	    "superpower": false,
+	};
+	players.isEmpty;
+	players.keys;
+	players.values;
+   ```
+3. If you want to build dictionary on Python, I wouldn't recommend this way. I wouldn't recommend using Maps a lot. You want define things that have `key` and `values`, recommend use **`class`**
