@@ -162,7 +162,7 @@
 	   var newFriends = [
 	       "민식", 
 	       "잼민",
-	       for (friend in oldFriends) "🌱 $friend",  // String Interpolation
+	       for (var friend in oldFriends) "🌱 $friend",  // String Interpolation
 	   ];
 	   ```
 ### [String Interpolation](Code/2-DataTypes/stringInterpolation.dart)

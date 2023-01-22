@@ -16,4 +16,12 @@ void main() {
   ];
 
   print(numbers3);
+
+  var oldFriends = ["철수", "영희"];
+  var newFriedns = [
+    "민식",
+    "잼민",
+    for (var friend in oldFriends) "🌱 $friend",
+  ];
+  print(newFriedns);
 }
