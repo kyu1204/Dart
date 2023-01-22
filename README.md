@@ -130,3 +130,28 @@
    x = 1.1;
    ```
 ### [List](Code/2-DataTypes/list.dart)
+1. If you use a `List` , there are two way
+	1. use `var` keyword
+	2. use specific type `List<type>`
+	   ```dart
+	       var numbers = [1, 2, 3, 4];
+	       List<int> numbers2 = [1, 2, 3, 4];
+	       ```
+2. `List` is implements many options
+   ```dart
+   var numbers = [1, 2, 3, 4];
+   numbers.first;
+   numbers.last;
+   numbers.isEmpty;
+  ```
+3. Dart is that they support **`collection if`** and **`collection for`**
+   ```dart
+   var giveFive = true;
+   var numbers = [
+     1,
+     2,
+     3,
+     4,
+     if (giveFive) 5,
+   ]
+  ```
