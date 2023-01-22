@@ -144,7 +144,7 @@
    numbers.last;
    numbers.isEmpty;
    ```
-3. Dart is that they support **`collection if`** and **`collection for`**
+3. Dart is support **`collection if`** and **`collection for`**
    ```dart
    var giveFive = true;
    var numbers = [
