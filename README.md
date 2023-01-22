@@ -155,3 +155,12 @@
      if (giveFive) 5,
    ]
    ```
+### [String Interpolation](Code/2-DataTypes/stringInterpolation.dart)
+1. String Interpolation is how we can include **variables** in our **text**
+2. just use **`$`** .
+   ```dart
+   var name = "minkyu";
+   var age = 30;
+   var greeting = "Hello everyone, my name is $name"
+   ```
+3. If you want variables operation, just use **`$`** and curly bracket
