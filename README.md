@@ -206,4 +206,4 @@
 	players.keys;
 	players.values;
    ```
-3. If you want to build dictionary on Python, I wouldn't recommend this way. I wouldn't recommend using Maps a lot. You want define things that have `key` and `values`, recommend use **`class`**
+3. If you want to build like Python dictionary in Dart, I wouldn't recommend this way. I don't recommend using a lot of **`Maps`**. If you want to define things that have keys and values, recommend using **`class`**.
