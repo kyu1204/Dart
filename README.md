@@ -184,17 +184,17 @@
 	1. use `var` keyword
 	2. use specific type `Maps<key type, value type>`
 	   ```dart
-	       var players = {
-	           "name": "minkyu",
-	           "xp": 19.999,
-	           "superpower": false,
-	       };
-	       Map<String, Object> players = {
-	           "name": "minkyu",
-	           "xp": 19.999,
-	           "superpower": false,
-	       };
-	       ```
+	   var players = {
+               "name": "minkyu",
+               "xp": 19.999,
+               "superpower": false,
+           };
+           Map<String, Object> players = {
+               "name": "minkyu",
+	       "xp": 19.999,
+	       "superpower": false,
+	   };
+	   ```
 2. `Maps` is implement many property and method
    ```dart
    var players = {
