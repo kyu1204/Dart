@@ -163,4 +163,9 @@
    var age = 30;
    var greeting = "Hello everyone, my name is $name"
    ```
-3. If you want variables operation, just use **`$`** and curly bracket
+3. If you want variables operation, just use **`$`** and **curly bracket**
+   ```dart
+   var name = "minkyu";
+   var age = 30;
+   var greeting = "Hello everyone, my name is $name and I'm ${age - 1}";
+   ```
