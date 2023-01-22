@@ -208,7 +208,7 @@
    ```
 3. If you want to build like Python dictionary in Dart, I wouldn't recommend this way. I don't recommend using a lot of **`Maps`**. If you want to define things that have keys and values, recommend using **`class`**.
 ### [Sets](Code/2-DataTypes/sets.dart)
-1. If you use a `Sets` , there are two way
+1. If you use a `Sets`, there are two way
 	1. use `var` keyword
 	2. use specific type `Sets<type>`
 	   ```dart
@@ -223,4 +223,4 @@
    numbers.add(1);
    
    print(numbers);  // 1, 2, 3, 4
-```
+   ```
