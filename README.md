@@ -227,7 +227,7 @@
 ---
 ## Functions
 ### [Defining a Function](Code/3-Functions/defineFunction.dart)
-1. The function consists of a `return type`, `function name`, `parameters` and `body`
+1. The function consists of a `return type`, `function name`, `parameters` and `body`.
    ```dart
    // <return type> <function name> (<parameters>) {
    //    <body>
@@ -240,17 +240,24 @@
    ```dart
    String sayHello(String name) => "Hello $name";
 ```
-### Named Parameters
-1. Dart's functions supports **Named Parameters**
-2. To use **Named Parameters**, enclose the parameters in **curly bracket**
-3. 
+### [Named Parameters]()
+1. Dart's functions supports **Named Parameters**.
+2. To use **Named Parameters**, enclose the parameters in **curly bracket**. 
+3. And the most important part is to set the **default value of the parameter** or set the **required** value.
    ```dart
    String sayHello({
-	   String name, 
-	   int age, 
-	   String contry,
+	   String name='mint', 
+	   int age=30, 
+	   String contry='korea',
+	}) {
+	   return "Hello $name, you are $age and come from $contry";
+   }
+   String sayHello2({
+	   required String name, 
+	   required int age, 
+	   required String contry,
 	}) {
 	   return "Hello $name, you are $age and come from $contry";
    }
 ```
-3. 
+### Optional Positional Parameters
