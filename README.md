@@ -270,3 +270,9 @@
 	   return "Hello $name, your $age and come from $contry";
    }
    ```
+### QQ Operator
+1. If you want to use an operator that operates after checking null, use the QQ operator.
+   ```dart
+   String capitalizeName(String? name) => name?.toUpper
+   ```
+2. 
