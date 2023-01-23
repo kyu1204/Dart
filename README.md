@@ -235,11 +235,11 @@
    String sayHello(String name) {
 	   return "Hello $name";
    }
-```
+   ```
 2. If your function is one line, you can use the "fat arrow"
    ```dart
    String sayHello(String name) => "Hello $name";
-```
+   ```
 ### [Named Parameters]()
 1. Dart's functions supports **Named Parameters**.
 2. To use **Named Parameters**, enclose the parameters in **curly bracket**. 
@@ -259,7 +259,7 @@
 	}) {
 	   return "Hello $name, you are $age and come from $contry";
    }
-```
+   ```
 ### [Optional Positional Parameters](Code/3-Functions/optionalPositionalParameter.dart)
 1. If you want optional positional parameters, follow these steps.
 	1. Enclose the parameters in a square brackets.
@@ -269,4 +269,4 @@
    String sayHello(String name, int age, [String? contry="korea"]) {
 	   return "Hello $name, your $age and come from $contry";
    }
-```
+   ```
