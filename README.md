@@ -260,4 +260,12 @@
 	   return "Hello $name, you are $age and come from $contry";
    }
 ```
-### Optional Positional Parameters
+### [Optional Positional Parameters](Code/3-Functions/optionalPositionalParameter.dart)
+1. If you want optional positional parameters, follow these steps.
+	1. Enclose the parameters in a square brackets.
+	2. Add to question symbol to parameters.
+	3. If you want add default values.
+   ```dart
+   String sayHello(String name, int age, [String? contry])
+```
+2. 
