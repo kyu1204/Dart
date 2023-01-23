@@ -229,10 +229,14 @@
 ### [Defining a Function](Code/3-Functions/defineFunction.dart)
 1. The function consists of a `return type`, `function name`, `parameters` and `body`
    ```dart
-   // String <return type> sayHello <function name> (String name <parameters>) {
+   // <return type> <function name> (<parameters>) {
    //    <body>
    // }
+   String sayHello(String name) {
+	   return "Hello $name";
+   }
 ```
 2. If your function is one line, you can use the "fat arrow"
-   
-3. 
+   ```dart
+   String sayHello(String name) => "Hello $name";
+```
