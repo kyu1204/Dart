@@ -241,7 +241,7 @@
    String sayHello(String name) => "Hello $name";
    ```
 ### [Named Parameters]()
-1. Dart's functions supports **Named Parameters**.
+1. Dart functions supports **Named Parameters**.
 2. To use **Named Parameters**, enclose the parameters in **curly bracket**. 
 3. And the most important part is to set the **default value of the parameter** or set the **required** value.
    ```dart
@@ -280,5 +280,16 @@
    void main() {
 	   String? name;
 	   name ??= 'minkyu';
+   }
+   ```
+### [Typedef](Code/3-Functions/typedef.dart)
+1. Dart supports **`typedef`**, It means you add an alias to type.
+2. If you want to add an alias to type, follow the example.
+   ```dart
+   typedef ListOfInts = List<int>;
+   
+   ListOfInts reverseListOfNumbers(ListOfInts list) {
+	   var reversed = list.reversed;
+	   return reversed.toList();
    }
    ```
