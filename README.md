@@ -236,7 +236,7 @@
 	   return "Hello $name";
    }
    ```
-2. If your function is one line, you can use the "fat arrow"
+2. If your function is one line, you can use the **`fat arrow`**
    ```dart
    String sayHello(String name) => "Hello $name";
    ```
