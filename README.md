@@ -270,9 +270,15 @@
 	   return "Hello $name, your $age and come from $contry";
    }
    ```
-### QQ Operator
+### [QQ Operator](Code/3-Functions/qqOperator.dart)
 1. If you want to use an operator that operates after checking null, use the QQ operator.
    ```dart
-   String capitalizeName(String? name) => name?.toUpper
+   String capitalizeName(String? name) => name?.toUpperCase() ?? "ANON";
    ```
-2. 
+2. If you want to use an operator that assigns a value after checking null, use the QQ assignment operator (QQ equals).
+   ```dart
+   void main() {
+	   String? name;
+	   name ??= 'minkyu';
+   }
+   ```
