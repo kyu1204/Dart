@@ -241,7 +241,16 @@
    String sayHello(String name) => "Hello $name";
 ```
 ### Named Parameters
-1. Dart's functions supports **`Named Parameters`**
-2. If you want to used the **`Named Prameters`**, just wrap **`curly bracket`**
-   
+1. Dart's functions supports **Named Parameters**
+2. To use **Named Parameters**, enclose the parameters in **curly bracket**
+3. 
+   ```dart
+   String sayHello({
+	   String name, 
+	   int age, 
+	   String contry,
+	}) {
+	   return "Hello $name, you are $age and come from $contry";
+   }
+```
 3. 
