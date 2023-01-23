@@ -240,7 +240,7 @@
    ```dart
    String sayHello(String name) => "Hello $name";
    ```
-### [Named Parameters]()
+### [Named Parameters](namedParameter.dart)
 1. Dart functions supports **Named Parameters**.
 2. To use **Named Parameters**, enclose the parameters in **curly bracket**. 
 3. And the most important part is to set the **default value of the parameter** or set the **required** keyword.
