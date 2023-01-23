@@ -240,3 +240,8 @@
    ```dart
    String sayHello(String name) => "Hello $name";
 ```
+### Named Parameters
+1. Dart's functions supports **`Named Parameters`**
+2. If you want to used the **`Named Prameters`**, just wrap **`curly bracket`**
+   
+3. 
