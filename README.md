@@ -298,8 +298,21 @@
 1. The format of the class is as in the following example.
    ```dart
    class Player {
-	   String name = 'minkyu';
+	   String name = 'minkyu';  // specific type, var(x)
 	   int xp = 1500;
    }
    ```
-2. The most important part is to set the **specific type of the property**.
+2. An important part when you create class is setting properties of a **specific type**
+3. If you want make class method, following example.
+   ```dart
+   class Player {
+	   String name = 'minkyu';
+	   int xp = 1500;
+	   
+	   void sayHello() {
+		   print("Hi my name is $name");
+	   }
+   }
+   ```
+4. It is recommended to omit the **`this`** keyword if variable names do not overlap in methods within a class.
+5. If you want immutable property, add the **`final`** keyword.
