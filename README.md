@@ -316,3 +316,9 @@
    ```
 4. It is recommended to omit the **`this`** keyword if variable names do not overlap in methods within a class.
 5. If you want immutable property, add the **`final`** keyword.
+   ```dart
+   class Player {
+	   final String name = 'minkyu';
+	   int xp = 1500;
+   }
+   ```
