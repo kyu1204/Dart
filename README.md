@@ -294,7 +294,7 @@
    }
    ```
 ## Classes
-### Your First Dart Class
+### [Your First Dart Class](Code/4-Classes/yourFirstDartClass.dart)
 1. The format of the class is as in the following example.
    ```dart
    class Player {
