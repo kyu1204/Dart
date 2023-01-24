@@ -293,3 +293,13 @@
 	   return reversed.toList();
    }
    ```
+## Classes
+### Your First Dart Class
+1. The format of the class is as in the following example.
+   ```dart
+   class Player {
+	   String name = 'minkyu';
+	   int xp = 1500;
+   }
+   ```
+2. The most important part is to set the **specific type of the property**.
