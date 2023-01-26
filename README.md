@@ -323,4 +323,17 @@
    }
    ```
 ### Constructors
-1. If you want to create an instance using an parameters,
+1. To create an instance using parameters, you should first create a constructor.
+2. The format of the constructor is as in the following example.
+   ```dart
+   class Player {
+	   late final String name;
+	   late int xp;
+	   
+	   Player(String name, int xp) {
+		   this.name = name;
+		   this.xp = xp;
+	   }
+   }
+   ```
+3. 
