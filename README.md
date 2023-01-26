@@ -322,7 +322,7 @@
 	   int xp = 1500;
    }
    ```
-### [Constructors](Code/4-Classes/)
+### [Constructors](Code/4-Classes/constructors.dart)
 1. To create an instance using parameters, you should first create a constructor.
 2. The format of the constructor is as in the following example.
    ```dart
