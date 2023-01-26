@@ -322,3 +322,5 @@
 	   int xp = 1500;
    }
    ```
+### Constructors
+1. If you want to create an instance using an parameters,
