@@ -363,4 +363,18 @@
 	   })
    }
    ```
-2. you look double int is uncomfortable, you can change this
+2. If you think duplicate assignment of **`int`** type is inconvenient, you can change it.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp, age;
+	   String team;
+	   
+	   Player({
+		   required this.name,
+		   required this.xp,
+		   required this.team,
+		   required this.age,
+	   })
+   }
+   ```
