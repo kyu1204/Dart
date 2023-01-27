@@ -298,28 +298,28 @@
 1. The format of the class is as in the following example.
    ```dart
    class Player {
-	   String name = 'minkyu';  // specific type, var(x)
-	   int xp = 1500;
+       String name = 'minkyu';  // specific type, var(x)
+       int xp = 1500;
    }
    ```
 2. An important part when you create class is setting properties of a **specific type**
 3. If you want make class method, following example.
    ```dart
    class Player {
-	   String name = 'minkyu';
-	   int xp = 1500;
-	   
-	   void sayHello() {
-		   print("Hi my name is $name");
-	   }
+       String name = 'minkyu';
+       int xp = 1500;
+     
+       void sayHello() {
+           print("Hi my name is $name");
+       }
    }
    ```
 4. It is recommended to omit the **`this`** keyword if variable names do not overlap in methods within a class.
 5. If you want immutable property, add the **`final`** keyword.
    ```dart
    class Player {
-	   final String name = 'minkyu';
-	   int xp = 1500;
+       final String name = 'minkyu';
+       int xp = 1500;
    }
    ```
 ### [Constructors](Code/4-Classes/constructors.dart)
@@ -327,13 +327,13 @@
 2. The format of the constructor is as in the following example.
    ```dart
    class Player {
-	   late final String name;
-	   late int xp;
-	   
-	   Player(String name, int xp) {
-		   this.name = name;
-		   this.xp = xp;
-	   }
+       late final String name;
+       late int xp;
+       
+       Player(String name, int xp) {
+           this.name = name;
+           this.xp = xp;
+       }
    }
    ```
 3. We can make this code shorter.
