@@ -463,12 +463,13 @@
          ..team='red';
    }
    ```
-### Enums
+### [Enums](Code/4-Classes/enums.dart)
 1. Dart supports **Enums**.
 2. **Enums** allows you to create a set of data.
    ```dart
    // create Enums
    enum Team { red, blue }
+   
    enum XPLevels { beginner, medium, pro }
    
    class Player {
