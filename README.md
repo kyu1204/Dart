@@ -346,7 +346,7 @@
    }
    ```
 4. An important part of this code is **positional** of the parameter.
-### Named Constructor Parameters
+### [Named Constructor Parameters](Code/4-Classes/namedParameterConstructors.dart)
 1. If you want to create a constructor using **Named Parameters**, it behaves the same as a function with **Named Parameters**.
    ```dart
    class Player {
@@ -354,6 +354,12 @@
 	   int xp;
 	   String team;
 	   int age;
+	   
+	   Player({
+		   required this.name,
+		   required this.xp,
+		   required this.team,
+		   required this.age,
+	   })
    }
    ```
-2. 
