@@ -440,3 +440,5 @@
 	       this.team = 'red';
    }
    ```
+### Cascade Notation
+1. If you want change value with class property, you can using Cascade Notation
