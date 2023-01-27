@@ -441,4 +441,4 @@
    }
    ```
 ### Cascade Notation
-1. If you want change value with class property, you can using Cascade Notation
+1. You can use **Cascade Notaion** to make code shorter for repeatedly changing class properties.
