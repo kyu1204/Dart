@@ -464,4 +464,29 @@
    }
    ```
 ### Enums
-1. 
+1. Dart supports **Enums**.
+2. **Enums** allows you to create a set of data.
+   ```dart
+   // create Enums
+   enum Team { red, blue }
+   enum XPLevels { beginner, medium, pro }
+   
+   class Player {
+	   String name;
+	   XPLevels xp;
+	   Team team;
+	   
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+	   })
+	}
+   void main() {
+       var player = Player(name: 'minkyu', xp: XPLevels.beginner, team: Team.blue)
+         ..name='mint'
+         // use Enums
+         ..xp=XPLevels.pro
+         ..team=Team.red;
+   }
+   ```
