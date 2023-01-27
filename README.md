@@ -440,7 +440,7 @@
 	       this.team = 'red';
    }
    ```
-### Cascade Notation
+### [Cascade Notation](Code/4-Classes/cascadeNotation.dart)
 1. **Cascade notation** can be used to make code that repeatedly changes the values ​​of properties of a class shorter.
    ```dart
    class Player {
@@ -463,4 +463,3 @@
 	    ..team='red';
   }
    ```
-2. 
