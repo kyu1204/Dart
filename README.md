@@ -356,10 +356,10 @@
 	   int age;
 	   
 	   Player({
-		   required this.name,
-		   required this.xp,
-		   required this.team,
-		   required this.age,
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
 	   })
    }
    ```
@@ -371,10 +371,10 @@
 	   String team;
 	   
 	   Player({
-		   required this.name,
-		   required this.xp,
-		   required this.team,
-		   required this.age,
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
 	   })
    }
    ```
