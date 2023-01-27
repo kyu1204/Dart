@@ -455,11 +455,11 @@
 		required this.team,
 	   })
 	}
-  void main() {
-	  var player = Player(name: 'minkyu', xp: 1500, team: 'blue')
-	  // Cascade Notation
-	    ..name='mint'
-	    ..xp=100000
-	    ..team='red';
-  }
+   void main() {
+       var player = Player(name: 'minkyu', xp: 1500, team: 'blue')
+       // Cascade Notation
+         ..name='mint'
+         ..xp=100000
+         ..team='red';
+   }
    ```
