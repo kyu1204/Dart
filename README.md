@@ -442,3 +442,25 @@
    ```
 ### Cascade Notation
 1. **Cascade notation** can be used to make code that repeatedly changes the values ​​of properties of a class shorter.
+   ```dart
+   class Player {
+	   String name;
+	   int xp;
+	   String team;
+	   
+	   // Basic Constructors
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+	   })
+	}
+  void main() {
+	  var player = Player(name: 'minkyu', xp: 1500, team: 'blue')
+	  // Cascade Notation
+	    ..name='mint'
+	    ..xp=100000
+	    ..team='red';
+  }
+   ```
+2. 
