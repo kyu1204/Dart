@@ -14,12 +14,12 @@ class Player {
   Player.createBlueTeam({
     required this.name,
     required this.age,
-  })  : this.xp = 0,
-        this.team = 'blue';
+  })  : xp = 0,
+        team = 'blue';
 
   Player.createRedTeam(this.name, this.age)
-      : this.xp = 0,
-        this.team = 'red';
+      : xp = 0,
+        team = 'red';
 
   void sayHello() {
     print("Hi my name is $name, xp is $xp and my team is $team");
