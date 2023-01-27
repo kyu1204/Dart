@@ -441,4 +441,4 @@
    }
    ```
 ### Cascade Notation
-1. You can use **Cascade Notaion** to make code shorter for repeatedly changing class properties.
+1. **Cascade notation** can be used to make code that repeatedly changes the values ​​of properties of a class shorter.
