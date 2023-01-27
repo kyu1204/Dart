@@ -378,3 +378,25 @@
 	   })
    }
    ```
+### Named Constructors
+1. Dart supports **Named Constructors** if you want to initialize instances using constructors with different values.
+2. The format of the **Named Constructor** is as in the following example.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp, age;
+	   String team;
+	   
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
+	   })
+	   
+	   Player.createBlueTeam({
+		required String name,
+		required String xp,
+	   })
+   }
+   ```
