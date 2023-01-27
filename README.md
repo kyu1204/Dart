@@ -413,3 +413,31 @@
 			this.team = 'red';
    }
    ```
+3. We can make this code shorter.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp, age;
+	   String team;
+	   
+	   // Basic Constructors
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
+	   })
+	   
+	   // Named Constructors
+	   Player.createBlueTeam({
+		required this.name,
+		required this.age,
+	   }) :  this.xp = 0,
+	          this.team = 'blue';
+		
+		// To use positional parameters
+		Player.createRedTeam(this.name, this.age) 
+			: this.xp = 0,
+			  this.team = 'red';
+   }
+   ```
