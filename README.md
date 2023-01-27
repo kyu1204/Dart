@@ -399,18 +399,17 @@
 	   Player.createBlueTeam({
 		required String name,
 		required int age,
-	   }) : 
-		   this.name = name,
-		   this.age = age,
-		   this.xp = 0,
-		   this.team = 'blue';
+	   })  : this.name = name,
+		  this.age = age,
+		  this.xp = 0,
+		  this.team = 'blue';
 		
-		// To use positional parameters
-		Player.createRedTeam(String name, int age) :
-			this.name = name,
-			this.age = age,
-			this.xp = 0,
-			this.team = 'red';
+	   // To use positional parameters
+	   Player.createRedTeam(String name, int age) 
+	     : this.name = name,
+	       this.age = age,
+	       this.xp = 0,
+	       this.team = 'red';
    }
    ```
 3. We can make this code shorter.
@@ -432,12 +431,12 @@
 	   Player.createBlueTeam({
 		required this.name,
 		required this.age,
-	   }) :  this.xp = 0,
-	          this.team = 'blue';
+	   })  : this.xp = 0,
+	         this.team = 'blue';
 		
-		// To use positional parameters
-		Player.createRedTeam(this.name, this.age) 
-			: this.xp = 0,
-			  this.team = 'red';
+	   // To use positional parameters
+	   Player.createRedTeam(this.name, this.age) 
+	     : this.xp = 0,
+	       this.team = 'red';
    }
    ```
