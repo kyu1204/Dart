@@ -529,14 +529,41 @@
 	   Player({
 		   required this.team,
 		   required String name
-	   }) : super(name);
+	   }) : super(name); // initialized the super class
    }
    ```
 3. An important part of this code is the **`super`** keyword.
-4. You must initialized super class
+4. The **super class** needs to be initialized.
+5. And you can **override** the super class method if you want.
+   ```dart
+   class Human {
+	   final String name;
+	   
+	   Human(this.name);
+	   
+	   void sayHello() {
+		   print("Hi my name is $name");
+	   }
+   }
+   
+   enum Team { red, blue }
+   
+   class Player extends Human {
+	   final Team team;
+	   
+	   Player({
+		   required this.team,
+		   required String name
+	   }) : super(name); // initialized the super class
+	   
+	   @override
+	   void sayHello() {
+		   super.sayHello();
+		   print("and my team is $team");
+	   }
+   }
+   ```
 ### [Mixins](Code/4-Classes/mixins.dart)
-1. 1231dsfs
-2. sdfaf
+1. 
 ### [Conclusions](Code/4-Classes/conclusions.dart)
-1. dsfaf
-2. asdfafa
+1. 
