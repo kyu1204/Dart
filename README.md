@@ -492,12 +492,31 @@
    }
    ```
 ### [Abstract Classes](Code/4-Classes/abstractClasses.dart)
-1. dfafd
-2. adfaf
-3. adfadf
+1. Dart supports **Abstract Classes**.
+2. If you want to define a method that you must create, you can have an abstract class inherited.
+   ```dart
+   abstract class Human {
+	   // required method
+	   void walk();
+   }
+   
+   class Player extends Human {
+	   // create method
+	   void walk() {
+		   print('I'm walking);
+	   }
+   }
+   ```
 ### [Inheritance](Code/4-Classes/inheritance.dart)
-1. dfafd
-2. adfaf
+1. Dart supports **Class Inheritance**.
+   ```dart
+   class Human {
+	   final String name;
+	   
+	   Human(this.name);
+   }
+   ```
+2. 
 ### [Mixins](Code/4-Classes/mixins.dart)
 1. 1231dsfs
 2. sdfaf
