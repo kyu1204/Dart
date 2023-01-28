@@ -564,6 +564,5 @@
    }
    ```
 ### [Mixins](Code/4-Classes/mixins.dart)
-1. 
-### [Conclusions](Code/4-Classes/conclusions.dart)
-1. 
+1. If you don't inherit and want to import the properties and methods of the class, you can use **Mixin**.
+2. To use Mixin a "with" keyword
