@@ -496,15 +496,15 @@
 2. If you want to define a method that you must create, you can have an abstract class inherited.
    ```dart
    abstract class Human {
-	   // required method
-	   void walk();
+       // required method
+       void walk();
    }
    
    class Player extends Human {
-	   // create method
-	   void walk() {
-		   print('I'm walking);
-	   }
+       // create method
+       void walk() {
+           print('I'm walking);
+       }
    }
    ```
 ### [Inheritance](Code/4-Classes/inheritance.dart)
@@ -512,24 +512,24 @@
 2. Use the **`extends`** keyword if you want to inherit.
    ```dart
    class Human {
-	   final String name;
+       final String name;
 	   
-	   Human(this.name);
+       Human(this.name);
 	   
-	   void sayHello() {
-		   print("Hi my name is $name");
-	   }
+       void sayHello() {
+           print("Hi my name is $name");
+       }
    }
    
    enum Team { red, blue }
    
    class Player extends Human {
-	   final Team team;
+       final Team team;
 	   
-	   Player({
-		   required this.team,
-		   required String name
-	   }) : super(name); // initialized the super class
+       Player({
+           required this.team,
+           required String name
+       }) : super(name); // initialized the super class
    }
    ```
 3. An important part of this code is the **`super`** keyword.
@@ -537,30 +537,30 @@
 5. And you can **override** the super class method if you want.
    ```dart
    class Human {
-	   final String name;
+       final String name;
 	   
-	   Human(this.name);
+       Human(this.name);
 	   
-	   void sayHello() {
-		   print("Hi my name is $name");
-	   }
+       void sayHello() {
+           print("Hi my name is $name");
+       }
    }
    
    enum Team { red, blue }
    
    class Player extends Human {
-	   final Team team;
+       final Team team;
 	   
-	   Player({
-		   required this.team,
-		   required String name
-	   }) : super(name); // initialized the super class
+       Player({
+           required this.team,
+           required String name
+       }) : super(name); // initialized the super class
 	   
-	   @override
-	   void sayHello() {
-		   super.sayHello();
-		   print("and my team is $team");
-	   }
+       @override
+       void sayHello() {
+           super.sayHello();
+           print("and my team is $team");
+       }
    }
    ```
 ### [Mixins](Code/4-Classes/mixins.dart)
