@@ -298,27 +298,196 @@
 1. The format of the class is as in the following example.
    ```dart
    class Player {
-	   String name = 'minkyu';  // specific type, var(x)
-	   int xp = 1500;
+       String name = 'minkyu';  // specific type, var(x)
+       int xp = 1500;
    }
    ```
 2. An important part when you create class is setting properties of a **specific type**
 3. If you want make class method, following example.
    ```dart
    class Player {
-	   String name = 'minkyu';
-	   int xp = 1500;
-	   
-	   void sayHello() {
-		   print("Hi my name is $name");
-	   }
+       String name = 'minkyu';
+       int xp = 1500;
+     
+       void sayHello() {
+           print("Hi my name is $name");
+       }
    }
    ```
 4. It is recommended to omit the **`this`** keyword if variable names do not overlap in methods within a class.
 5. If you want immutable property, add the **`final`** keyword.
    ```dart
    class Player {
-	   final String name = 'minkyu';
-	   int xp = 1500;
+       final String name = 'minkyu';
+       int xp = 1500;
+   }
+   ```
+### [Constructors](Code/4-Classes/constructors.dart)
+1. To create an instance using parameters, you should first create a **constructor**.
+2. The format of the constructor is as in the following example.
+   ```dart
+   class Player {
+       late final String name;
+       late int xp;
+       
+       Player(String name, int xp) {
+           this.name = name;
+           this.xp = xp;
+       }
+   }
+   ```
+3. We can make this code shorter.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp;
+	   
+	   Player(this.name, this.xp);
+   }
+   ```
+4. An important part of this code is **positional** of the parameter.
+### [Named Constructor Parameters](Code/4-Classes/namedParameterConstructors.dart)
+1. If you want to create a constructor using **Named Parameters**, it behaves the same as a function with **Named Parameters**.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp;
+	   String team;
+	   int age;
+	   
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
+	   })
+   }
+   ```
+2. If you think duplicate assignment of **`int`** type is inconvenient, you can change it.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp, age;
+	   String team;
+	   
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
+	   })
+   }
+   ```
+### [Named Constructors](Code/4-Classes/namedConstructors.dart)
+1. Dart supports **Named Constructors** if you want to initialize instances using constructors with different values.
+2. The format of the **Named Constructor** is as in the following example.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp, age;
+	   String team;
+	   
+	   // Basic Constructors
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
+	   })
+	   
+	   // Named Constructors
+	   Player.createBlueTeam({
+		required String name,
+		required int age,
+	   })  : this.name = name,
+		  this.age = age,
+		  this.xp = 0,
+		  this.team = 'blue';
+		
+	   // To use positional parameters
+	   Player.createRedTeam(String name, int age) 
+	     : this.name = name,
+	       this.age = age,
+	       this.xp = 0,
+	       this.team = 'red';
+   }
+   ```
+3. We can make this code shorter.
+   ```dart
+   class Player {
+	   final String name;
+	   int xp, age;
+	   String team;
+	   
+	   // Basic Constructors
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+		required this.age,
+	   })
+	   
+	   // Named Constructors
+	   Player.createBlueTeam({
+		required this.name,
+		required this.age,
+	   })  : this.xp = 0,
+	         this.team = 'blue';
+		
+	   // To use positional parameters
+	   Player.createRedTeam(this.name, this.age) 
+	     : this.xp = 0,
+	       this.team = 'red';
+   }
+   ```
+### [Cascade Notation](Code/4-Classes/cascadeNotation.dart)
+1. **Cascade notation** can be used to make code that repeatedly changes the values ​​of properties of a class shorter.
+   ```dart
+   class Player {
+	   String name;
+	   int xp;
+	   String team;
+	   
+	   // Basic Constructors
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+	   })
+	}
+   void main() {
+       var player = Player(name: 'minkyu', xp: 1500, team: 'blue')
+       // Cascade Notation
+         ..name='mint'
+         ..xp=100000
+         ..team='red';
+   }
+   ```
+### [Enums](Code/4-Classes/enums.dart)
+1. Dart supports **Enums**.
+2. **Enums** allows you to create a set of data.
+   ```dart
+   // create Enums
+   enum Team { red, blue }
+   
+   enum XPLevels { beginner, medium, pro }
+   
+   class Player {
+	   String name;
+	   XPLevels xp;
+	   Team team;
+	   
+	   Player({
+		required this.name,
+		required this.xp,
+		required this.team,
+	   })
+	}
+   void main() {
+       var player = Player(name: 'minkyu', xp: XPLevels.beginner, team: Team.blue)
+         ..name='mint'
+         // use Enums
+         ..xp=XPLevels.pro
+         ..team=Team.red;
    }
    ```
