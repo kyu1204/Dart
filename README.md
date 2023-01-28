@@ -592,4 +592,5 @@
 	   player.strongLevel;
    }
    ```
-   3. An important part of **Mixin is not inheritance**, it just gets methods or properties.
+   3. An important part of **Mixin is not inheritance**.
+   4. It just gets methods or properties.
