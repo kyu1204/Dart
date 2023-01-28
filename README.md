@@ -565,4 +565,31 @@
    ```
 ### [Mixins](Code/4-Classes/mixins.dart)
 1. If you don't inherit and want to import the properties and methods of the class, you can use **Mixin**.
-2. To use Mixin a "with" keyword
+2. To use a **Mixin**, simply use the **`with`** keyword.
+   ```dart
+   class Strong {
+	   final double strongLevel = 1500.99;
+   }
+   class QuickRunner {
+	   void runQuick() {
+		   print("ruuuuuun!");
+	   }
+   }
+   
+   enum Team { red, blue }
+   
+   // use "with" keyword
+   class Player with Strong, QuickRunner {
+	   final Team team;
+	   Player(this.team);
+   }
+   
+   void main() {
+	   var player = Player(Team.red);
+	   // mixin method
+	   player.runQuick();
+	   // mixin property
+	   player.strongLevel;
+   }
+   ```
+   3. An important part of **Mixin is not inheritance**, it just gets methods or properties.
