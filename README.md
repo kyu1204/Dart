@@ -586,9 +586,9 @@
    
    void main() {
 	   var player = Player(Team.red);
-	   // mixin method
+	   // get mixin method
 	   player.runQuick();
-	   // mixin property
+	   // get mixin property
 	   player.strongLevel;
    }
    ```
