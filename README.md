@@ -524,9 +524,16 @@
    enum Team { red, blue }
    
    class Player extends Human {
+	   final Team team;
+	   
+	   Player({
+		   required this.team,
+		   required String name
+	   }) : super(name);
    }
    ```
-2. 
+3. An important part of this code is the **`super`** keyword.
+4. You must initialized super class
 ### [Mixins](Code/4-Classes/mixins.dart)
 1. 1231dsfs
 2. sdfaf
