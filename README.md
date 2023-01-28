@@ -568,29 +568,29 @@
 2. To use a **Mixin**, simply use the **`with`** keyword.
    ```dart
    class Strong {
-	   final double strongLevel = 1500.99;
+       final double strongLevel = 1500.99;
    }
    class QuickRunner {
-	   void runQuick() {
-		   print("ruuuuuun!");
-	   }
+       void runQuick() {
+           print("ruuuuuun!");
+       }
    }
    
    enum Team { red, blue }
    
    // use "with" keyword
    class Player with Strong, QuickRunner {
-	   final Team team;
-	   Player(this.team);
+       final Team team;
+       Player(this.team);
    }
    
    void main() {
-	   var player = Player(Team.red);
-	   // get mixin method
-	   player.runQuick();
-	   // get mixin property
-	   player.strongLevel;
+       var player = Player(Team.red);
+       // get mixin method
+       player.runQuick();
+       // get mixin property
+       player.strongLevel;
    }
    ```
-   3. An important part of **Mixin is not inheritance**.
-   4. It just gets methods or properties.
+3. An important part of **Mixin is not inheritance**.
+4. It just gets methods or properties.
