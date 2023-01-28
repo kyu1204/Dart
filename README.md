@@ -491,3 +491,16 @@
          ..team=Team.red;
    }
    ```
+### [Abstract Classes](Code/4-Classes/abstractClasses.dart)
+1. dfafd
+2. adfaf
+3. adfadf
+### [Inheritance](Code/4-Classes/inheritance.dart)
+1. dfafd
+2. adfaf
+### [Mixins](Code/4-Classes/mixins.dart)
+1. 1231dsfs
+2. sdfaf
+### [Conclusions](Code/4-Classes/conclusions.dart)
+1. dsfaf
+2. asdfafa
