@@ -509,11 +509,21 @@
    ```
 ### [Inheritance](Code/4-Classes/inheritance.dart)
 1. Dart supports **Class Inheritance**.
+2. Use the **`extends`** keyword if you want to inherit.
    ```dart
    class Human {
 	   final String name;
 	   
 	   Human(this.name);
+	   
+	   void sayHello() {
+		   print("Hi my name is $name");
+	   }
+   }
+   
+   enum Team { red, blue }
+   
+   class Player extends Human {
    }
    ```
 2. 
