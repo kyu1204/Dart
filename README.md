@@ -491,3 +491,106 @@
          ..team=Team.red;
    }
    ```
+### [Abstract Classes](Code/4-Classes/abstractClasses.dart)
+1. Dart supports **Abstract Classes**.
+2. If you want to define a method that you must create, you can have an abstract class inherited.
+   ```dart
+   abstract class Human {
+       // required method
+       void walk();
+   }
+   
+   class Player extends Human {
+       // create method
+       void walk() {
+           print('I'm walking);
+       }
+   }
+   ```
+### [Inheritance](Code/4-Classes/inheritance.dart)
+1. Dart supports **Class Inheritance**.
+2. Use the **`extends`** keyword if you want to inherit.
+   ```dart
+   class Human {
+       final String name;
+	   
+       Human(this.name);
+	   
+       void sayHello() {
+           print("Hi my name is $name");
+       }
+   }
+   
+   enum Team { red, blue }
+   
+   class Player extends Human {
+       final Team team;
+	   
+       Player({
+           required this.team,
+           required String name
+       }) : super(name); // initialized the super class
+   }
+   ```
+3. An important part of this code is the **`super`** keyword.
+4. The **super class** needs to be initialized.
+5. And you can **override** the super class method if you want.
+   ```dart
+   class Human {
+       final String name;
+	   
+       Human(this.name);
+	   
+       void sayHello() {
+           print("Hi my name is $name");
+       }
+   }
+   
+   enum Team { red, blue }
+   
+   class Player extends Human {
+       final Team team;
+	   
+       Player({
+           required this.team,
+           required String name
+       }) : super(name); // initialized the super class
+	   
+       @override
+       void sayHello() {
+           super.sayHello();
+           print("and my team is $team");
+       }
+   }
+   ```
+### [Mixins](Code/4-Classes/mixins.dart)
+1. If you don't inherit and want to import the properties and methods of the class, you can use **Mixin**.
+2. To use a **Mixin**, simply use the **`with`** keyword.
+   ```dart
+   class Strong {
+       final double strongLevel = 1500.99;
+   }
+   class QuickRunner {
+       void runQuick() {
+           print("ruuuuuun!");
+       }
+   }
+   
+   enum Team { red, blue }
+   
+   // use "with" keyword
+   class Player with Strong, QuickRunner {
+       final Team team;
+       Player(this.team);
+   }
+   
+   void main() {
+       var player = Player(Team.red);
+       // get mixin method
+       player.runQuick();
+       // get mixin property
+       player.strongLevel;
+   }
+   ```
+3. An important part of **Mixin is not inheritance**.
+4. It just gets methods or properties.
