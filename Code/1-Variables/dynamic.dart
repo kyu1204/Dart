@@ -3,9 +3,9 @@ void main() {
   name = 'minkyu';
   name = 123;
   name = true;
-  
+
   dynamic birhtday;
-  if(birhtday is String) {
+  if (birhtday is String) {
     birhtday.length;
     birhtday.isEmpty;
   }
